@@ -13,6 +13,11 @@ export class AppComponent {
     escola: "2º Ano",
     nasc: "21/03/2006"
   }
+  userCar = "BMW Z4";
+  userCarInfo = {
+    year: 2018,
+    marca: "BMW"
+  }
 
   title = 'curso-angular';
 }

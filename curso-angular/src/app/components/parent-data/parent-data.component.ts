@@ -9,6 +9,8 @@ export class ParentDataComponent implements OnInit {
 
   @Input() name: string = '';
   @Input() info!: {age: number, escola: string, nasc: string};
+  @Input() carro: string = '';
+  @Input() carInfo!: {year: number, marca: string};
 
   constructor() { }
 
