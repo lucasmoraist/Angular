@@ -20,7 +20,8 @@ export class AppComponent {
   }
 
   userTitulo = {
-    directives: "Aula de Diretivas"
+    directives: "Aula de Diretivas",
+    conditional: "Aula de Comandos de Decisão"
   }
 
   title = 'curso-angular';
