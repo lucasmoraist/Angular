@@ -7,6 +7,9 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class IfRenderComponent implements OnInit {
 
+  canShow: boolean = true;
+  nome = "Fernanda";
+
   @Input() titulo!: {conditional: String};
 
   constructor() { }

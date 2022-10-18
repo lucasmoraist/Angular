@@ -1,4 +1,10 @@
 <div>
     <h2>{{ titulo.conditional }}</h2>
+    <h3 *ngIf="canShow">Lucas de Morais Nascimento Taguchi</h3>
+    <h3 *ngIf="nome === 'Fernanda'; else nameNotFound">Fernanda</h3>
     
+    <!--Tag que irá apresentar oque tiver nela caso a condinção If seja 'falsa'-->
+    <ng-template #nameNotFound>
+        <h3>O nome não foi encontrado</h3>
+    </ng-template>
 </div>
