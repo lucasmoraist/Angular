@@ -19,5 +19,9 @@ export class AppComponent {
     marca: "BMW"
   }
 
+  userTitulo = {
+    directives: "Aula de Diretivas"
+  }
+
   title = 'curso-angular';
 }
