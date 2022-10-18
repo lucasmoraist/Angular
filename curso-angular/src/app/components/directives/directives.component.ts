@@ -6,6 +6,10 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./directives.component.css']
 })
 export class DirectivesComponent implements OnInit {
+  color= 'red';
+  font= 30;
+
+  classes = ['green-title', 'small-title'];
 
   @Input() titulo!: {directives: String};
 
