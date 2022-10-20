@@ -8,6 +8,8 @@ import { ParentDataComponent } from './components/parent-data/parent-data.compon
 import { DirectivesComponent } from './components/directives/directives.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
 import { EventsAngularComponent } from './components/events-angular/events-angular.component';
+import { EmitterComponent } from './components/emitter/emitter.component';
+import { ChangeNumberComponent } from './components/change-number/change-number.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { EventsAngularComponent } from './components/events-angular/events-angul
     ParentDataComponent,
     DirectivesComponent,
     IfRenderComponent,
-    EventsAngularComponent
+    EventsAngularComponent,
+    EmitterComponent,
+    ChangeNumberComponent
   ],
   imports: [
     BrowserModule,
