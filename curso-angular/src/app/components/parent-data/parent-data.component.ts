@@ -7,6 +7,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ParentDataComponent implements OnInit {
 
+  @Input() titulo!: {template: String};
   @Input() name: string = '';
   @Input() info!: {age: number, escola: string, nasc: string};
   @Input() carro: string = '';

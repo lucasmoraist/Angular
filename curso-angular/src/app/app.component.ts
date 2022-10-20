@@ -20,8 +20,11 @@ export class AppComponent {
   }
 
   userTitulo = {
+    component: "Aula de Components",
+    template: "Aula de Template Angular",
     directives: "Aula de Diretivas",
-    conditional: "Aula de Comandos de Decisão"
+    conditional: "Aula de Comandos de Decisão",
+    events: "Aula de Eventos em Angular"
   }
 
   title = 'curso-angular';

@@ -2,8 +2,9 @@
     <h1>Hello World Angular!</h1>
     <h2>Meu h2 sem o css do component</h2>
 </div>
-<app-first-components></app-first-components>
-<app-parent-data [name]="userName" [info]="userInfo" [carro]="userCar" [carInfo]="userCarInfo"></app-parent-data>
+<app-first-components [titulo]="userTitulo"></app-first-components>
+<app-parent-data [titulo]="userTitulo" [name]="userName" [info]="userInfo" [carro]="userCar" [carInfo]="userCarInfo"></app-parent-data>
 <app-directives [titulo]="userTitulo"></app-directives>
 <app-if-render [titulo]="userTitulo"></app-if-render>
+<app-events-angular [titulo]="userTitulo"></app-events-angular>
 
