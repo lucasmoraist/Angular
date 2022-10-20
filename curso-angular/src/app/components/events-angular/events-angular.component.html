@@ -1,3 +1,12 @@
 <div>
     <h2>{{ titulo.events }}</h2>
+
+    <p *ngIf="show">Displaying message!</p>
+    <button (click)="showMessage()">Click here!</button>
+
+    <p>{{ num }}</p>
+    <button (click)="soma()">Soma</button>
+    <button (click)="sub()">Subtraia</button>
+    <button (click)="mult()">Multiplique</button>
+    <button (click)="div()">Divide</button>
 </div>
