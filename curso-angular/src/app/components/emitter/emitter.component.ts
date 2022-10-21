@@ -15,7 +15,7 @@ export class EmitterComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  //Número aleatório entre 0 e 9
   onChangeNumber(){
     this.myNumber = Math.floor(Math.random() * 10);
   }

@@ -1,5 +1,4 @@
 import { Component, OnInit, Output, EventEmitter } from '@angular/core';
-import { ChildActivationStart } from '@angular/router';
 
 @Component({
   selector: 'app-change-number',
@@ -8,6 +7,7 @@ import { ChildActivationStart } from '@angular/router';
 })
 export class ChangeNumberComponent implements OnInit {
 
+  //Saída de dados/evento
   @Output() changeNumber: EventEmitter<any> = new EventEmitter()
 
   handleClick(){
