@@ -4,5 +4,7 @@
     <ul *ngFor="let car of cars">
         <li >Nome: {{ car.name }}</li>
         <li>Tipo: {{ car.type }}</li>
+        <button (click)="showYear(car)">Ano</button>
     </ul>
+    <h3>{{ carDetails }}</h3>
 </div>
