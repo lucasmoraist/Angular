@@ -10,6 +10,7 @@ export class ChangeNumberComponent implements OnInit {
   //Saída de dados/evento
   @Output() changeNumber: EventEmitter<any> = new EventEmitter()
 
+  //Evento atribuido ao botão
   handleClick(){
     this.changeNumber.emit()
   }

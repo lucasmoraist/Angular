@@ -11,6 +11,7 @@ export class DirectivesComponent implements OnInit {
 
   classes = ['green-title', 'small-title'];
 
+  //Compartilhando um dado do componente pai para o componente filho
   @Input() titulo!: {directives: String};
 
   constructor() { }

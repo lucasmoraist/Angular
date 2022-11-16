@@ -1,6 +1,7 @@
 <div>
     <h2>{{ titulo.emitting }}</h2>
-    <!--Emetindo dados do component filho(change-number)-->
     <h3>O número é: {{ myNumber }}</h3>
+
+    <!--Evento recebido do component filho-->
     <app-change-number (changeNumber)="onChangeNumber()"></app-change-number>
 </div>

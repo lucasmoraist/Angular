@@ -7,8 +7,10 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class FirstComponentsComponent implements OnInit {
 
+  //Compartilhando um dado do componente pai para o componente filho
   @Input() titulo!: {component: String};
 
+  //Informando dados que serão imprimidos no template
   name: string = 'Lucas';
   age: number = 18;
   job = "Programador"; //Estes dados irão vir do banco de dados

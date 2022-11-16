@@ -1,9 +1,11 @@
 <div>
     <h2>{{ titulo.events }}</h2>
 
+    <!--Mensagem que sempre irá sumir e aparecer conforme aperta o botão-->
     <p *ngIf="show">Displaying message!</p>
     <button (click)="showMessage()">Click here!</button>
 
+    <!--Chamando os dados do arquivo .ts-->
     <p>{{ num }}</p>
     <button (click)="soma()">Soma</button>
     <button (click)="sub()">Subtraia</button>
