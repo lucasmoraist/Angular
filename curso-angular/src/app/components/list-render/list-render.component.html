@@ -1,0 +1,8 @@
+<div>
+    <h2>{{ titulo.list }}</h2>
+    <h3>Veículos: </h3>
+    <ul *ngFor="let car of cars">
+        <li >Nome: {{ car.name }}</li>
+        <li>Tipo: {{ car.type }}</li>
+    </ul>
+</div>

@@ -25,7 +25,8 @@ export class AppComponent {
     directives: "Aula de Diretivas",
     conditional: "Aula de Comandos de Decisão",
     events: "Aula de Eventos em Angular",
-    emitting: "Aula de Emetindo eventos"
+    emitting: "Aula de Emetindo eventos",
+    list: "Aula de renderização de listas"
   }
 
   title = 'curso-angular';
