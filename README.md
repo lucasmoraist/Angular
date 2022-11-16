@@ -1,7 +1,4 @@
 # Angular
-# Angular
-
-Comandos
 
 # Instalando angular
 - npm install -g @angular/cli
