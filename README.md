@@ -7,7 +7,7 @@ Comandos
 - npm install -g @angular/cli
 
 # Gerando primeiros arquivo
-- ng new <nome>
+- ng new < nome >
 
 # Gerando component
-- ng generate component components/<nome>
+- ng generate component components/< nome >
